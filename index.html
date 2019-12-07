@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AngularJS - routing</title>
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/styles-index.css">
+</head>
+
+<body ng-app="routingApp">
+	<div class="index">This is routing trhough multiple pages with AngularJS without the need to reload the whole page</div>
+	<div class="index">
+		<a href="#/!">Main page content</a>
+		<a href="#!index_2">Secondary page content</a>
+		<a href="#!index_3">Third page content</a>
+	</div>
+	
+	<div class="ng-view"></div>
+
+	<div class="index">This will help me to build up a single page application... eventually.</div>
+
+	<script type="text/javascript" src="./script-index.js"></script>
+</body>
+</html>

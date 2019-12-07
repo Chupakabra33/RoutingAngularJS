@@ -1,0 +1,74 @@
+body {background-color: #00909C;}
+div.wrapper-index-3 {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	margin: auto;
+}
+div.wrapper-index-3 > img.up-down {
+	height: 10em;
+	width: auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -6em;
+	bottom: 5em;
+	-webkit-animation: blue_butterfly_up 4s ease infinite;
+	animation: blue_butterfly_up  4s ease infinite;
+}
+@-webkit-keyframes blue_butterfly_up {
+	0% {top: 420px; transform: rotate(0deg);}
+	25% {top: 150px; transform: rotate(0deg);}
+	50% {top: 150px; transform: rotate(180deg);}
+	75% {top: 420px; transform: rotate(180deg);}
+	100% {top: 420px;transform: rotate(0deg);}
+}
+@keyframes blue_butterfly_up {
+	0% {bottom: 5em; margin-bottom: 0; transform: rotate(0deg);}
+	25% {bottom: 100%; margin-bottom: -23em; transform: rotate(0deg);}
+	50% {bottom: 100%; margin-bottom: -23em; transform: rotate(180deg);}
+	75% {bottom: 5em; margin-bottom: 0; transform: rotate(180deg);}
+	100% {bottom: 5em; margin-bottom: 0; transform: rotate(0deg);}
+}
+div.wrapper-index-3 > img.left-right {
+	height: 12em;
+	width: auto;
+	max-width: 100%;
+	position: absolute;
+	top: 250px;
+	right: 0;
+	margin-right: 0;
+	-webkit-animation: blue_butterfly_side 6s ease infinite;
+	animation: blue_butterfly_side 6s ease infinite;
+}
+@-webkit-keyframes blue_butterfly_side {
+	0% {right: 0; margin-right: 0; transform: rotateY(0deg);}
+	25% {right: 100%; margin-right: -11em; transform: rotateY(0deg);}
+	50% {right: 100%; margin-right: -11em; transform: rotateY(180deg);}
+	75% {right: 0; margin-right: 0; transform: rotateY(180deg);}
+	100% {right: 0; margin-right: 0; transform: rotateY(0deg);}
+}
+@keyframes blue_butterfly_side {
+	0% {right: 0; margin-right: 0; transform: rotateY(0deg);}
+	25% {right: 100%; margin-right: -11em; transform: rotateY(0deg);}
+	50% {right: 100%; margin-right: -11em; transform: rotateY(180deg);}
+	75% {right: 0; margin-right: 0; transform: rotateY(180deg);}
+	100% {right: 0; margin-right: 0; transform: rotateY(0deg);}
+}
+p.index-3-text {
+	max-width: 750px;
+	font-size: 25px;
+	color: white;
+	text-align: justify;
+	font-weight: bold;
+	margin: 15px auto 0 auto;
+}
+p.index-3-text>span {
+	font-style: italic;
+	font-size: 22px;
+	font-weight: initial;
+	text-align: center;
+	margin: auto;
+}
+.space {
+	height: 20em;
+}

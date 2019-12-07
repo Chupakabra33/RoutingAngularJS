@@ -1,0 +1,26 @@
+body {background-color: #A71930;}
+div.wrapper-main {
+	display: flex;
+	flex-direction: column;
+	max-width: 800px;
+	margin: auto;
+}
+h1.main-page-text {
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	margin: 15px 0;
+}
+h1.main-page-text > span {
+	font-style: italic;
+	font-size: 22px;
+	font-weight: initial;
+}
+p.main-page-text {
+	width: 100%;
+	font-size: 18px;
+	color: white;
+	text-align: justify;
+	text-indent: 50px;
+	margin-bottom: 0;
+}
